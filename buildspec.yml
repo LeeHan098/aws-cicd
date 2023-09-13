@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  install:
+  build:
+artifacts:
+  files:
+    - /index.html
+    - appspec.yml
+    - scripts/**/*
+  discard-paths: no
